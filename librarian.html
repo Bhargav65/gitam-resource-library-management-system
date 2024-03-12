@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librarian</title>
+    <style>
+        .container{
+            display: flex;
+            margin:300px;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form action="/qrgenerating" method="post" class="qrgenform">
+        <input type="submit" value="Generate QR for Books">
+    </form>
+    <form action="/approve" method="post" class="approve">
+        <input type="submit" value="Approve Books">
+    </form>
+</div>
+</body>
+</html>
